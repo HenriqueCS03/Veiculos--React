@@ -4,4 +4,46 @@
     font-size: 16;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-porshe{
+    width: 100%;
+    height: auto;
+}
+
+.div-links{
+    justify-content: center;
+    align-items: center;
+}
+
+.icone{
+    padding: 10px;
+    width: 4rem;
+    border-radius: 6px;
+}
+
+.lista-carros{
+    text-decoration: none;
+    list-style-type: none; 
+}
+
+.div-modelos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.container-parceiros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

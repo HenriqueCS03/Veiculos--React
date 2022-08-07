@@ -8,13 +8,24 @@ function Carros(){
                 <div>
                     <img className='img-porshe' src={Img} alt="Imagem de uma porshe"></img>
                 </div>
-                <div>
-                    <ul>
-                        <li>Porsche Macan</li>
-                        <li>Camaro Amarelo</li>
-                        <li>Bugatti Type 13</li>
-                        <li>Ferrari 812 GTS</li>
-                        <li>Gol Quadrado</li>   
+                <div className='div-modelos'>
+                    <ul className='lista-carros'>
+                        <div>
+                            <div className='div-porsheMacan'>
+                                <li>Porsche Macan</li>
+                            </div>
+                            <div className='div-camaro'>
+                            <li>Camaro Amarelo</li>
+                            </div>
+                        </div>
+                        <div>  
+                            <div className='div-bugatti'>
+                            <li>Bugatti Veyron</li>
+                            </div>
+                            <div>
+                            <li>Ferrari 812 GTS</li>
+                            </div>
+                        </div>   
                     </ul>
                 </div>
             </div>
