@@ -5,25 +5,25 @@ function Carros(){
     return(
         <>
             <div className='container-principal'>
-                <div>
+                <div className='div-pric-carro'>
                     <img className='img-porshe' src={Img} alt="Imagem de uma porshe"></img>
                 </div>
                 <div className='div-modelos'>
                     <ul className='lista-carros'>
-                        <div>
-                            <div className='div-porsheMacan'>
-                                <li>Porsche Macan</li>
+                        <div className='cont-carros1'>
+                            <div className='div-ferrari'>
+                                <li className='nomeCar'>Ferrari 812 GTS</li>
                             </div>
                             <div className='div-camaro'>
-                            <li>Camaro Amarelo</li>
+                                <li className='nomeCar'>Camaro Amarelo</li>
                             </div>
                         </div>
-                        <div>  
+                        <div className='cont-carros2'>  
                             <div className='div-bugatti'>
-                            <li>Bugatti Veyron</li>
+                                <li className='nomeCar'>Bugatti Veyron</li>
                             </div>
-                            <div>
-                            <li>Ferrari 812 GTS</li>
+                            <div className="div-porsheMacan">
+                                <li className='nomeCar'>Porsche Macan</li>
                             </div>
                         </div>   
                     </ul>
