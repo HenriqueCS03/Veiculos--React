@@ -73,7 +73,6 @@ body{
 
 .div-modelos{
     display: flex;
-    flex-direction: column;
     width: 100%;
     margin: 2rem 0;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
@@ -89,7 +88,6 @@ body{
 
 .cont-carros1{ 
     display: flex;
-    bottom: 0;
     width: 100%;
     height: 100%;     
 }
@@ -153,7 +151,11 @@ body{
 }
 
 .nomeCar{
+    position: relative;
+    top: 36.25rem;
+    left: 1.875rem;
     font-size: 2rem;
+    font-weight: 800;
     color: #fff;
 }
 
